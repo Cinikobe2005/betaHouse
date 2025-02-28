@@ -16,7 +16,7 @@ const Nav = () => {
           <a href="#">Properties</a>
           <Link to="/login">About Us</Link>
           <a href="#">Blog</a>
-          <a href="#">Contact Us</a>
+          <Link to="/register">Contact Us</Link>
         </div>
         <div className="hidden md:flex gap-2 items-center">
           <img src={person} alt="person avatar" />
